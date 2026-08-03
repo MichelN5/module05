@@ -72,7 +72,7 @@ AForm* Intern::makeForm(const std::string& formName,
         }
     }
 
-    std::cerr << "Intern cannot create unknown form: "
+    std::cout << "Intern cannot create unknown form: "
               << formName << std::endl;
     return NULL;
 }
